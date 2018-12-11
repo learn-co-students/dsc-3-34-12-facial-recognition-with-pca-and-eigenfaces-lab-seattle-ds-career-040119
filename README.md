@@ -1,5 +1,5 @@
 
-# Facial recognition with PCA and EigenFaces - lab
+# Facial recognition with PCA and Eigenfaces - Lab
 
 ## Introduction
 In this last lab of the section, we shall attempt to combine all the skills learnt around dimensionality reduction, running classification on reduced datasets and applying these in a image processing context. We shall look at a simple facial recognition experiment using PCA and Eigenfaces. As earlier, we shall try to run a classification task on the reduced dataset and check for the impact of PCA on classifier performance. Let's get on with it. 
@@ -166,13 +166,13 @@ One interesting part of PCA is that it computes the “mean” face, which can b
 ![png](index_files/index_18_1.png)
 
 
-### Visualize Principle Components for 25 Images - EigenFaces
+### Visualize Principal Components for 25 Images - EigenFaces
 
-The principal components measure deviations about this mean along orthogonal axes. Let's Visualize these principle components just like we visualized actual images above. These components can be accessed via `pca.components_[i]` where i is image you want to access. 
+The principal components measure deviations about this mean along orthogonal axes. Let's Visualize these principal components just like we visualized actual images above. These components can be accessed via `pca.components_[i]` where i is image you want to access. 
 
 
 ```python
-# Visualize PRinciple Components
+# Visualize Principal Components
 
 
 
@@ -416,3 +416,7 @@ If you want to create your own face dataset, you’ll need several pictures of e
 # Further Reading 
 - [Maths behind computation of Eigenfaces](http://www.vision.jhu.edu/teaching/vision08/Handouts/case_study_pca1.pdf) 
 - [PCA, Eigenfaces and all that](http://bugra.github.io/work/notes/2013-07-27/PCA-EigenFace-And-All-That/)
+
+## Summary
+
+Great! This was your first real introduction to analyzing images. You'll see much more on this in future lessons and labs!
