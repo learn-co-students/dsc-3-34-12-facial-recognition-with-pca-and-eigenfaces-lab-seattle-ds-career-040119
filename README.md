@@ -156,13 +156,13 @@ plt.imshow(pca.mean_.reshape(faces.images[0].shape),cmap=plt.cm.gray)
 ![png](index_files/index_18_1.png)
 
 
-### Visualize Principle Components for 25 Images - EigenFaces
+### Visualize Principal Components for 25 Images - EigenFaces
 
-The principal components measure deviations about this mean along orthogonal axes. Let's Visualize these principle components just like we visualized actual images above. These components can be accessed via `pca.components_[i]` where i is image you want to access. 
+The principal components measure deviations about this mean along orthogonal axes. Let's Visualize these principal components just like we visualized actual images above. These components can be accessed via `pca.components_[i]` where i is image you want to access. 
 
 
 ```python
-# Visualize PRinciple Components
+# Visualize Principal Components
 
 fig = plt.figure(figsize=(12, 6))
 for i in range(25):
@@ -411,3 +411,7 @@ If you want to create your own face dataset, you’ll need several pictures of e
 # Further Reading 
 - [Maths behind computation of Eigenfaces](http://www.vision.jhu.edu/teaching/vision08/Handouts/case_study_pca1.pdf) 
 - [PCA, Eigenfaces and all that](http://bugra.github.io/work/notes/2013-07-27/PCA-EigenFace-And-All-That/)
+
+## Summary
+
+Great! This was your first real introduction to analyzing images. You'll see much more on this in future lessons and labs!
